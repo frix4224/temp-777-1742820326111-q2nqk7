@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dash-line {
+  background: repeating-linear-gradient(
+    to right,
+    white,
+    white 10px,
+    transparent 10px,
+    transparent 20px
+  );
+}
+
+.perspective-800 {
+  perspective: 800px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
